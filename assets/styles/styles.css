@@ -1,0 +1,135 @@
+body {
+	color: white;
+	background-color: black;
+}
+
+#mainTitle{
+	font-size: 5em;
+	text-align: center;
+}
+
+#thunder1 {
+		  position: absolute;
+
+  animation-duration: 1s;
+  animation-name: thunder;
+  z-index: 3
+
+}
+
+@keyframes thunder {
+  from {
+    margin-left: 0%;
+    width: 100%
+  }
+
+  to {
+    margin-left: 100%;
+    width: 100%;
+    font-size: 4em;
+  }
+}
+#thunder2 {
+		  position: absolute;
+
+  animation-duration: 2.3s;
+  animation-name: thunder;
+    z-index: 2
+
+}
+
+@keyframes thunder {
+  from {
+    margin-left: 0%;
+    width: 100%
+  }
+
+  to {
+    margin-left: 100%;
+    width: 100%;
+    font-size: 4em;
+  }
+}
+#thunder3 {
+		  position: absolute;
+
+  animation-duration: 2s;
+  animation-name: thunder;
+    z-index: 4
+
+}
+
+@keyframes thunder {
+  from {
+    margin-left: 0%;
+    width: 100%
+  }
+
+  to {
+    margin-left: 100%;
+    width: 100%;
+    font-size: 4em;
+  }
+}
+#thunder4 {
+		  position: absolute;
+
+  animation-duration: 1.5s;
+  animation-name: thunder;
+    z-index: 5
+
+}
+
+@keyframes thunder {
+  from {
+    margin-left: 0%;
+    width: 100%
+  }
+
+  to {
+    margin-left: 100%;
+    width: 100%;
+    font-size: 4em;
+  }
+}
+#thunder5 {
+	  position: absolute;
+    z-index: 6;
+  animation-duration: 2.5s;
+  animation-name: thunder;
+  animation-iteration-count: infinite;
+
+
+}
+
+@keyframes thunder {
+  from {
+    margin-left: 0%;
+    width: 100%
+  }
+
+  to {
+    margin-left: 100%;
+    width: 100%;
+    font-size: 4em;
+  }
+}
+#thunder6 {
+  animation-duration: 1s;
+  animation-name: thunder6;
+    z-index: 7
+
+}
+
+@keyframes thunder6 {
+  from {
+    margin-left: 0%;
+    width: 100%
+  }
+
+  to {
+    margin-left: 100%;
+    width: 100%;
+    font-size: 6em;
+  }
+}
